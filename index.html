@@ -8,12 +8,66 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Nuestros estilos -->
     <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- ACA VA LIBRERIAS DE ANIMATE STYLE -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <title>Animate Style con Wow</title>
 
 </head>
 <body>
-    <h1>Animate.style</h1>
-    <p>Esta pagina es para mostrarle a los aprendices lo que es animate.style con wow, luego vamos a animar botones y después vamos a trabajar z-index</p>
+    <div class="container">
+        <div class="row">
+            <!-- Aca va la barra de navegación -->
+            <nav class="navbar navbar-expand-lg bg-light animate__animated animate__fadeInDown">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" width="150px"></a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Animate.style</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Animate Buttons</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Z-index property</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-6 caja animate__animated animate__fadeInLeft">
+                <h1>Animate.style</h1>
+                <p>Esta pagina es para mostrarle a los aprendices lo que es animate.style con wow, luego vamos a animar botones y después vamos a trabajar z-index</p>
+            </div>
+            <div class="col-6 caja animate__animated animate__fadeInRight">
+                <img src="images/animate.gif" alt="" width="100%" height="300px">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4 caja1 animate__animated animate__fadeInLeft"><h1>SOY 3 ESPACIOS</h1></div>
+            <div class="col-4 caja1 animate__animated animate__zoomIn"><h1>SOY 3 ESPACIOS</h1></div>
+            <div class="col-4 caja1 animate__animated animate__fadeInRight"><h1>SOY 3 ESPACIOS</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-4 caja2 animate__animated animate__slideInLeft"><h1>SOY 3 ESPACIOS</h1></div>
+            <div class="col-4 caja2 animate__animated animate__slideInDown"><h1>SOY 3 ESPACIOS</h1></div>
+            <div class="col-4 caja2 animate__animated animate__slideInRight"><h1>SOY 3 ESPACIOS</h1></div>
+        </div>
+        <div class="row">
+            <div class="col-2 caja3 animate__animated animate__slideInLeft"><h1>SOY TEXTO</h1></div>
+            <div class="col-8 caja3 animate__animated animate__slideInUp"><h1>SOY IMAGEN</h1></div>
+            <div class="col-2 caja3 animate__animated animate__slideInRight"><h1>SOY TEXTO</h1></div>
+        </div>
+        
+    </div>
+    
     
     <!-- JavaScript de bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

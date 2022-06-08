@@ -2,7 +2,27 @@
     box-sizing: border-box;
 }
 body{
-    background-color: chartreuse;
     margin: 0;
     padding: 0;
+}
+.caja{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(127, 255, 159);
+    height: 65vh;
+}
+.caja1{
+    display: flex;
+    background-color: aquamarine;
+    height: 35vh;
+}
+.caja2{
+    display: flex;
+    background-color: lightblue;
+    height: 35vh;
+}
+.caja3{
+    display: flex;
+    background-color: lightseagreen;
+    height: 65vh;
 }
